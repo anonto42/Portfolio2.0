@@ -8,7 +8,7 @@ const MiddelComponent = () => {
     <div className='w-full h-[79.8%] block md:flex bg-gradient-to-r from-[#552e88] to-[#1c0e2d]'>
         <div className='w-full h-[50%] md:w-[50%] md:h-full md:p-[70px]'>
             <h3 className='right-[35%] absolute mt-10 md:mt-0 md:right-0 text-4xl md:relative md:text-2xl xl:text-4xl text-white'>Hello 👋,</h3>
-            <h1 className='right-[23%] text-white absolute mt-[110px] md:right-1 text-7xl md:relative md:text-[50px] md:my-4 md:font-[900] md:text-[#c094f9] xl:text-8xl'>I'm a web <br /> Developer </h1>
+            <h1 className='right-[18%] sm:right-[23%] text-white absolute mt-[110px] md:right-1 text-7xl md:relative md:text-[50px] md:my-4 md:font-[900] md:text-[#c094f9] xl:text-8xl'>I'm a web <br /> Developer </h1>
             <h3 className='right-[29%] absolute mt-[280px] md:mt-0 md:right-0 text-3xl md:relative  md:text-xl xl:text-2xl text-white'>I build things for web</h3>
             <div className='flex justify-center md:justify-start mt-[520px] text-2xl absolute md:relative text-[#c094f9] w-[100%]  md:mt-7 xl:text-[210%] md:text-[190%]'>
                 <div className='w-12 h-12 bg-[#1c0e2d] md:w-[50px] md:h-[50px] flex justify-center items-center rounded-full cursor-pointer xl:w-[60px] xl:h-[60px] '><FaGithub/></div>
@@ -16,8 +16,8 @@ const MiddelComponent = () => {
                 <div className='bg-[#1c0e2d] w-12 h-12 md:w-[50px] md:h-[50px] flex justify-center items-center rounded-full cursor-pointer xl:w-[60px] xl:h-[60px] '><FaInstagram/></div>
             </div>
         </div>
-        <div className='w-full h-[50%] md:w-[50%] md:h-full md:p-[70px]'>
-            <div className='imagebar md:border-2 md:border-indigo-800 md:w-[400px] md:h-[450px] xl:w-[500px]' >
+        <div className=' absolute mt-11 md:mt-0 ml-[30%] md:ml-0 md:relative w-full h-[50%] md:w-[50%] md:h-full md:p-[70px]'>
+            <div className='imagebar  w-[220px] h-[150px] border-2 border-indigo-800 md:w-[400px] md:h-[450px] xl:w-[500px]' >
                 <img 
                  className='md:w-full md:h-full'
                  src=""

@@ -6,7 +6,6 @@ import LastCompOfhome from '../../Components/LastCompoOfHome/LastCompOfhome'
 const Home = () => {
   return (
     <div className='w-full h-svh bg-[#e1ebed]'>
-        <Naveber/>
         <MiddelComponent/>
         <LastCompOfhome/>
     </div>
