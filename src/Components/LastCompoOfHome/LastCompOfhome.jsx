@@ -16,8 +16,9 @@ const LastCompOfhome = () => {
             <img className='w-[40px] h-[50px]' src="./assets/js.png" alt="" />
             <img className='w-[40px] h-[50px]' src="./assets/react.png" alt="./assets/node.png" />
             <img className='w-[40px] h-[50px]' src="./assets/node.png" alt="" />
-            <img className='w-[40px] h-[50px]' src="./assets/redux.png" alt="" />
-            <img className='w-[40px] h-[50px]' src="./assets/tailwind.png" alt="" />
+            <img className='w-[40px] h-[50px] hidden md:block' src="./assets/redux.png" alt="" />
+            <img className='w-[40px] h-[50px] hidden
+            md:block' src="./assets/tailwind.png" alt="" />
             <img className='w-[40px] h-[50px]' src="./assets/mongo.png" alt="" />
         </div>
     </div>
