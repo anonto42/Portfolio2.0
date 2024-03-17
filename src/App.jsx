@@ -1,16 +1,24 @@
 import { BrowserRouter, Route, Routes,  } from 'react-router-dom'
 import './App.css'
 import Home from './Pages/Home/Home'
-import ModulRoot from './Pages/RootPage/ModulRoot'
+import ProjectShow from './Pages/Project/ProjectShow'
+import Skills from './Pages/Skiles/Skills'
+import Root from './Pages/RootPage/Root'
+import HireIng from './Pages/HireMe/HireIng'
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<ModulRoot/>} /> 
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Root>
+          <Routes>
+            <Route path="/" element={<Home/>} /> 
+            <Route path='/projucts' element={<ProjectShow/>} />
+            <Route path='/skills' element={<Skills/>} />
+            <Route path='/hire' element={<HireIng/>} />
+          </Routes>
+          </Root>
+      </BrowserRouter>
   )
 }
 

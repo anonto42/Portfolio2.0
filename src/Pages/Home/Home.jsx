@@ -1,13 +1,18 @@
 import React from 'react'
-import Naveber from '../../Components/Naveber/Naveber'
 import MiddelComponent from '../../Components/HomeMidelComponent/MiddelComponent'
 import LastCompOfhome from '../../Components/LastCompoOfHome/LastCompOfhome'
+import Skills from '../Skiles/Skills'
+import HireIng from '../HireMe/HireIng'
 
 const Home = () => {
   return (
-    <div className='w-full h-svh bg-[#e1ebed]'>
-        <MiddelComponent/>
-        <LastCompOfhome/>
+    <div>
+      <div className='w-full h-[100vh]'>
+          <MiddelComponent/>
+          <LastCompOfhome/>
+      </div>
+      <Skills/>
+      <HireIng/>
     </div>
   )
 }

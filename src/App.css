@@ -16,3 +16,6 @@ body{
         margin-left: -80px;
     }
 }
+.scroll::-webkit-scrollbar{
+    display: none;
+}
