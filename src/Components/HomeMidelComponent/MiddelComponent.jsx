@@ -20,7 +20,7 @@ const MiddelComponent = () => {
             <div className='imagebar hidden md:block rounded-md w-[220px] h-[150px] border-2 border-indigo-800 md:w-[400px] md:h-[450px] xl:w-[500px]' >
                 <img 
                  className='md:w-full rounded-md md:h-full'
-                 src="./assets/pp.pn"
+                 src="./assets/pp.png"
                  alt='add some image' />
             </div>
         </div>

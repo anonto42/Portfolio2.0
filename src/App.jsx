@@ -5,6 +5,8 @@ import ProjectShow from './Pages/Project/ProjectShow'
 import Skills from './Pages/Skiles/Skills'
 import Root from './Pages/RootPage/Root'
 import HireIng from './Pages/HireMe/HireIng'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -17,7 +19,8 @@ function App() {
             <Route path='/skills' element={<Skills/>} />
             <Route path='/hire' element={<HireIng/>} />
           </Routes>
-          </Root>
+        </Root>
+        <ToastContainer />
       </BrowserRouter>
   )
 }
